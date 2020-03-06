@@ -1,10 +1,12 @@
 print('Witaj w wirtualnej grze w ruletke. Dostajesz od nas tysiąc złotych, które możesz pomnożyć lub stracić. Masz trzy zakręcenia ruletką. Powodzenia.')
+print()
 print('Czas na pierwsze kręcenie. Podaj stawkę:', end='')
 global b
 b=1000
 a=input()
 while int(a)<=0 or int(a)>1000:
-    print('Podane wartości są niepoprawne. Proszę spróbować jeszcze raz')
+    print('Podana wartoścć jest niepoprawna. Proszę spróbować jeszcze raz')
+    print()
     print('Podaj poprawną stawkę:', end='')
     a=input()
 import random
